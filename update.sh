@@ -10,7 +10,7 @@ echo  "#### meningkatkan paket pembaruan ####"
 apt upgrade  -y
 sleep 15
 clear 
-cd ../
+cd ../home
 echo "****** semua paket telah di tingkat kan ******"
 echo  "-------------- SELESAI ----------------"
 now=$(date +"%T")
