@@ -1,8 +1,6 @@
  
 #!  /bin/bash
 
-
-cd
 clear 
 echo  "### Memeriksa pembaruan paket ###"
 apt update 
@@ -13,7 +11,7 @@ apt upgrade  -y
 sleep 15
 cp update.sh /data/data/com.termux/files/home
 clear 
-cd /data/data/com.termux/files/home/
+cd
 rm -rf Script.bash-otomatis-update-upgrade-/
 echo "****** semua paket telah di tingkat kan ******"
 echo  "-------------- SELESAI ----------------"
