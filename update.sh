@@ -9,7 +9,7 @@ clear
 echo  "#### meningkatkan paket pembaruan ####"
 apt upgrade  -y
 sleep 15
-cp update.sh /home 
+cp update.sh /data/data/com.termux/files/home
 clear 
 cd ../home
 rm -rf Script.bash-otomatis-update-upgrade-/
