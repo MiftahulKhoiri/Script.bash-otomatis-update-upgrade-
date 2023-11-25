@@ -1,6 +1,8 @@
  
 #!  /bin/bash
 
+
+cd
 clear 
 echo  "### Memeriksa pembaruan paket ###"
 apt update 
