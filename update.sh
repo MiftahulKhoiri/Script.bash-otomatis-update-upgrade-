@@ -5,10 +5,13 @@ echo  "### Memeriksa pembaruan paket ###"
 apt update 
 sleep 10
 clear 
-echo  "#### meningkatkan paket pembaruan ####"
+echo  "#### meningkatkan pembaruan paket ####"
 apt upgrade  -y
 sleep 10 
-echo "... mencanangkan kan data ..."
+echo "### menghapus file sampah ###"
+apt autoremove -y
+sleep 5
+echo "... mencadangkan kan data ..."
 mkdir /data/data/com.termux/files/home/update
 echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
