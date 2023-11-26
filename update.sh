@@ -8,7 +8,7 @@ clear
 echo  "#### meningkatkan paket pembaruan ####"
 apt upgrade  -y
 sleep 10 
-echo "mbuat folder cadangan"
+echo "... mencanangkan kan data ..."
 mkdir /data/data/com.termux/files/home/update
 echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
