@@ -18,12 +18,7 @@ sleep 5
 clear 
 echo "... mencadangkan data ..."
 chmod  +x update.sh 
-mkdir /data/data/com.termux/files/home/update
-sleep 5
-
-clear 
-echo ".. meng copi perintah .."
-cp update.sh /data/data/com.termux/files/home/update
+cp update.sh /data/data/com.termux/files/home
 sleep 5
 
 clear 
