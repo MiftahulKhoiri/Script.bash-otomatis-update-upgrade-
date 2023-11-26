@@ -6,12 +6,12 @@ apt update
 sleep 10
 
 clear 
-echo  "#### meningkatkan pembaruan paket ####"
+echo  "## meningkatkan pembaruan paket ##"
 apt upgrade  -y
 sleep 10 
 
 clear 
-echo "### menghapus file sampah ###"
+echo "# menghapus file sampah #"
 apt autoremove -y
 sleep 5
 
