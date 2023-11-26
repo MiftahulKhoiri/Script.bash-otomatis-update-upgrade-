@@ -11,7 +11,7 @@ sleep 10
 echo "### menghapus file sampah ###"
 apt autoremove -y
 sleep 5
-echo "... mencadangkan kan data ..."
+echo "... mencadang kan data ..."
 mkdir /data/data/com.termux/files/home/update
 echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
