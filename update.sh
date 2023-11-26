@@ -1,4 +1,3 @@
- 
 #!  /bin/bash
 
 clear 
@@ -15,12 +14,11 @@ echo "meng copi perintah"
 cp update.sh /data/data/com.termux/files/home/update
 sleep 5
 clear 
-cd /data/data/com.termux/files/home/update
 echo "menghapus berkas"
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
+cd /data/data/com.termux/files/home/update
 echo "****** semua paket telah di tingkat kan ******"
 echo  "-------------- SELESAI ----------------"
 now=$(date +"%T")
 echo "WAKTU : $now"
-cd ../
