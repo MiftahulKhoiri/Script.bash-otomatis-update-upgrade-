@@ -1,0 +1,2 @@
+ 
+chmod +x update.sh
