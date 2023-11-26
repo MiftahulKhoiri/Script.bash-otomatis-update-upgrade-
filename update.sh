@@ -15,9 +15,9 @@ cp update.sh /data/data/com.termux/files/home/update
 sleep 5
 clear 
 echo "menghapus berkas"
+cd ../data/data/com.termux/files/home
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
-cd /data/data/com.termux/files/home/update
 echo "****** semua paket telah di tingkat kan ******"
 echo  "-------------- SELESAI ----------------"
 now=$(date +"%T")
