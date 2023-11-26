@@ -8,12 +8,14 @@ sleep 10
 clear 
 echo  "#### meningkatkan paket pembaruan ####"
 apt upgrade  -y
-sleep 10
+sleep 10 
+echo "mbuat folder cadangan"
+mkdir /data/data/com.termux/files/home/update
 echo "meng copi perintah"
-cp update.sh /data/data/com.termux/files/home
+cp update.sh /data/data/com.termux/files/home/update
 sleep 5
 clear 
-cd /data/data/com.termux/files/home
+cd /data/data/com.termux/files/home/update
 echo "menghapus berkas"
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
