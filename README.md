@@ -10,9 +10,8 @@ install paket git
 copi file git
 ~$ git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 masuk ke folder unduhan
-~$ cd
-berikan izin pada file update.sh 
-dengan perintah 
+~$ cd /data/data/com.termux/files/home/Script.bash-otomatis-update-upgrade-
+berikan izin pada file update.sh dengan perintah
 ~$ chmod +x update.sh
 setelah itu jalankan dengan perintah 
 ~$ ./update.sh
