@@ -6,12 +6,12 @@ apt update
 sleep 5
 
 clear 
-echo  "#### meningkatkan pembaruan paket ####"
+echo  "## meningkatkan pembaruan paket ##"
 apt upgrade  -y
 sleep 5
 
 clear 
-echo "### menghapus file sampah ###"
+echo "# menghapus file sampah #"
 apt autoremove -y
 sleep 5
 
@@ -22,12 +22,12 @@ mkdir /data/data/com.termux/files/home/update
 sleep 5
 
 clear 
-echo "##### meng copi perintah ####"
+echo ".. meng copi perintah .."
 cp update.sh /data/data/com.termux/files/home/update
 sleep 5
 
 clear 
-echo "--- menghapus berkas ----"
+echo "- menghapus berkas -"
 cd /data/data/com.termux/files/home
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
