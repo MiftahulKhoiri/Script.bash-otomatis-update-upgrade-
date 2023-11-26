@@ -21,6 +21,7 @@ chmod  +x update.sh
 mkdir /data/data/com.termux/files/home/update
 sleep 5
 
+clear 
 echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
 sleep 5
