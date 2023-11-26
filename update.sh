@@ -15,6 +15,7 @@ echo "... mencadang kan data ..."
 mkdir /data/data/com.termux/files/home/update
 echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
+
 sleep 5
 clear 
 echo "--- menghapus berkas ----"
