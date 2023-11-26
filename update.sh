@@ -10,11 +10,11 @@ apt upgrade  -y
 sleep 10 
 echo "mbuat folder cadangan"
 mkdir /data/data/com.termux/files/home/update
-echo "meng copi perintah"
+echo "##### meng copi perintah ####"
 cp update.sh /data/data/com.termux/files/home/update
 sleep 5
 clear 
-echo "menghapus berkas"
+echo "--- menghapus berkas ----"
 cd /data/data/com.termux/files/home
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
