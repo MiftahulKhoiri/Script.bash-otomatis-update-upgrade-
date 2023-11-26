@@ -40,4 +40,5 @@ echo "WAKTU : $now"
 sleep 3
 
 cd /data/data/com.termux/files/home
+pwd
 ls 
