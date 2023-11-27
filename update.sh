@@ -17,6 +17,6 @@ sleep 5
 
 clear 
 echo "****** semua paket telah di tingkat kan ******"
-echo  "# ---- --- -- - SELESAI  ------------------##"
+echo  "# ---- --- -- - SELESAI - -- --- ---- #"
 now=$(date +"%T")
 echo "# * - - - = WAKTU : $now = - - - * #"
