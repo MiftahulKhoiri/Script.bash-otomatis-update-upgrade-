@@ -3,7 +3,9 @@
 clear 
 echo  "### Memeriksa pembaruan paket ###"
 apt update 
-sleep 10
+sleep 5
+apt list -upgradable
+sleep 5
 
 clear 
 echo  "## meningkatkan pembaruan paket ##"
