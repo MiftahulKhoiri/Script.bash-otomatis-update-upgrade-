@@ -4,7 +4,7 @@ clear
 echo  "### Memeriksa pembaruan paket ###"
 apt update 
 sleep 5
-apt list -upgradable
+apt list --upgradable
 sleep 5
 
 clear 
