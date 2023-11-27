@@ -8,7 +8,7 @@ sleep 10
 clear 
 echo  "## meningkatkan pembaruan paket ##"
 apt upgrade  -y
-sleep 10 
+sleep 7
 
 clear 
 echo "# menghapus file sampah #"
@@ -17,6 +17,6 @@ sleep 5
 
 clear 
 echo "****** semua paket telah di tingkat kan ******"
-echo  "-------------- SELESAI ----------------"
+echo  "##-------------- SELESAI ------------------##"
 now=$(date +"%T")
-echo "WAKTU : $now"
+echo "#*---= WAKTU : $now =---*#"
