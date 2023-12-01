@@ -1,7 +1,7 @@
 # Termux Script.bash
 
-script.bash otomatis update upgrade
-Cek pembaruan dan peningkatan paket dengan sekali perintah 
+script.bash termux
+sekali perintah biar kan kode menyelesaikan semua nya
 
 # penggunaan
 
@@ -22,3 +22,5 @@ setelah itu jalankan dengan perintah
 
 Untuk update selanjutnya 
 ~$ ./update.sh
+
+$$$ buat hidup mu lebih gampang $$$
