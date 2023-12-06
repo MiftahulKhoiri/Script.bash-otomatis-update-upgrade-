@@ -19,6 +19,7 @@ sleep 10
 
 clear 
 echo "... mencadangkan data ..."
+apt install figlet -y
 chmod  +x update.sh 
 cp update.sh /data/data/com.termux/files/home
 sleep 10
@@ -39,3 +40,4 @@ sleep 5
 cd /data/data/com.termux/files/home
 pwd
 ls 
+figlet terimaksih
