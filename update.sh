@@ -22,3 +22,4 @@ echo "****** semua paket telah di tingkat kan ******"
 echo  "# ---- --- -- - SELESAI - -- --- ---- #"
 now=$(date +"%T")
 echo "# * - - - = WAKTU : $now = - - - * #"
+figlet TERIMAKASIH 
