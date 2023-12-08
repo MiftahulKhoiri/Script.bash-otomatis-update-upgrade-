@@ -8,3 +8,4 @@ chmod +× update.sh
 chmod +x update-script.sh
 cp update.sh /data/data/com.termux/files/home
 cp update-script.sh /data/data/com.termux/files/home
+cd /data/data/com.termux/files/home
