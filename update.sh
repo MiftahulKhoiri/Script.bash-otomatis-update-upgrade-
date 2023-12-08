@@ -20,5 +20,5 @@ sleep 5
 clear 
 echo "****** semua paket telah di tingkat kan ******"
 now=$(date +"%T")
-echo "# * - - - = WAKTU : $now = - - - * #"
+echo "# * --- -- - = WAKTU : $now = - -- --- * #"
 figlet ' selesai '
