@@ -1,6 +1,6 @@
 clear
-figlet memeriksa pembaruan script 
-sleep 10
+echo " memeriksa pembaruan script "
+sleep 5
 
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 
