@@ -10,7 +10,7 @@ sleep 5
 clear 
 echo  "## meningkatkan pembaruan paket ##"
 apt upgrade  -y
-sleep 10
+sleep 5
 
 clear 
 echo "# menghapus file sampah #"
@@ -19,7 +19,8 @@ sleep 10
 
 clear 
 echo "... mencadangkan data ..."
-pkg install figlet -y
+pkg install apt
+apt install figlet -y
 chmod  +x update.sh 
 chmod +x update-script.sh
 cp update.sh /data/data/com.termux/files/home
