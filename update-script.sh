@@ -21,4 +21,7 @@ rm -rf Script.bash-otomatis-update-upgrade-/
 
 echo " pembaruan script selesai "
 
+now=$(date +"%T")
+echo "■ === == = : WAKTU : $now : = == === ■"
+
 
