@@ -26,8 +26,8 @@ sleep 5
 echo " pembaruan script selesai "
 
 waktu=$(date+"%T")
-tanggal=$(date+"%F")
 echo "■ === == = : WAKTU : $waktu : = == === ■"
+tanggal=$(date+"%F")
 echo "■ === == = : TANGGAL : $tanggal : = == === ■"
 
 echo "V:0.01-09/12/2023-"
