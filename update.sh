@@ -19,7 +19,7 @@ sleep 5
 
 clear 
 echo "****** semua paket telah di tingkat kan ******"
-now=$(date +"%T")
+now=$(date +"%F-%T")
 echo "# * --- -- - = WAKTU : $now = - -- --- * #"
 figlet ' selesai '
 echo "V:0.01-09/12/2023-"
