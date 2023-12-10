@@ -11,5 +11,7 @@ cp update.sh /data/data/com.termux/files/home
 cp update-script.sh /data/data/com.termux/files/home
 cd /data/data/com.termux/files/home
 rm -rf Script.bash-otomatis-update-upgrade-/
-./update.sh
+
+echo " pembaruan script selesai "
+
 
