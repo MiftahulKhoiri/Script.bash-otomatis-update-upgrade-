@@ -25,8 +25,11 @@ rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
 echo " pembaruan script selesai "
 
-now=$(date +"%F-%T")
-echo "■ === == = : WAKTU : $now : = == === ■"
+waktu =$(date +"%T")
+tanggal = $ (date + "%F")
+echo "■ === == = : WAKTU : $waktu : = == === ■"
+echo "■ === == = : TANGGAL : $tanggal : = == === ■"
+
 echo "V:0.01-09/12/2023-"
 
 
