@@ -4,6 +4,13 @@ sleep 5
 
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 
+echo "menghapus berkas lama"
+rm update.sh
+rm update-script.sh
+
+echo "memperos file unduhan"
+sleep 5
+
 cd Script.bash-otomatis-update-upgrade-/
 chmod +× update.sh
 chmod +x update-script.sh
