@@ -1,3 +1,5 @@
+
+
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
 sleep 5
