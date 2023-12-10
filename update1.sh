@@ -44,3 +44,4 @@ cd /data/data/com.termux/files/home
 pwd
 ls 
 figlet terimaksih
+echo "V:0.01"
