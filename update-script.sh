@@ -25,8 +25,8 @@ rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 5
 echo " pembaruan script selesai "
 
-waktu = $ (date +"%T")
-tanggal = $ (date + "%F")
+waktu=$(date+"%T")
+tanggal=$(date+"%F")
 echo "■ === == = : WAKTU : $waktu : = == === ■"
 echo "■ === == = : TANGGAL : $tanggal : = == === ■"
 
