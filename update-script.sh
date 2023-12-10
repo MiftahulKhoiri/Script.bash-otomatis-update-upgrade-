@@ -27,5 +27,6 @@ echo " pembaruan script selesai "
 
 now=$(date +"%T")
 echo "■ === == = : WAKTU : $now : = == === ■"
+echo "V:0.01-09/12/2023-"
 
 
