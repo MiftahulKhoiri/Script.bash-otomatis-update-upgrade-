@@ -20,9 +20,9 @@ sleep 5
 clear 
 echo "****** semua paket telah di tingkat kan ******"
 
-waktu = $ (date +"%T")
-tanggal = $ (date + "%F")
+waktu=$(date+"%T")
 echo "■ === == = : WAKTU : $waktu : = == === ■"
+tanggal=$(date+"%F")
 echo "■ === == = : TANGGAL : $tanggal : = == === ■"
 
 figlet ' selesai '
