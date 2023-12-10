@@ -37,10 +37,12 @@ clear
 echo "****** semua paket telah di tingkat kan ******"
 echo  " ●●● ●● ● ▪︎ SELESAI ▪︎ ● ●● ●●● "
 
-waktu = $ (date +"%T")
-tanggal = $ (date + "%F")
+
+waktu=$(date+"%T")
 echo "■ === == = : WAKTU : $waktu : = == === ■"
+tanggal=$(date+"%F")
 echo "■ === == = : TANGGAL : $tanggal : = == === ■"
+
 sleep 5
 
 cd /data/data/com.termux/files/home
