@@ -12,7 +12,7 @@ echo "memperos file unduhan"
 sleep 5
 
 cd Script.bash-otomatis-update-upgrade-/
-chmod +× update.sh
+chmod +x update.sh
 chmod +x update-script.sh
 cp update.sh /data/data/com.termux/files/home
 cp update-script.sh /data/data/com.termux/files/home
