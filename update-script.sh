@@ -32,7 +32,8 @@ clear
 echo " pembaruan script selesai "
 now=$(date +"%F/%T")
 echo "■¤¤ :TANGGAL/WAKTU: $now : ¤¤■"
+figlet terimaksih 
 
-echo "V:0.01-09/12/2023-"
+echo "V:0.10-09/12/2023-"
 
 
