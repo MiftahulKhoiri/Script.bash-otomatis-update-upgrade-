@@ -26,7 +26,7 @@ sleep 5
 echo " pembaruan script selesai "
 
 now=$(date +"%F/%T")
-echo "■ === == = :TANGGAL/WAKTU : $now : = == === ■"
+echo "■ :TANGGAL/WAKTU : $now : ■"
 
 echo "V:0.01-09/12/2023-"
 
