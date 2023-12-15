@@ -21,7 +21,7 @@ clear
 echo "****** semua paket telah di tingkat kan ******"
 
 now=$(date +"%F/%T")
-echo "■ :TANGGAL/WAKTU : $now : ■"
+echo "□■: TANGGAL/WAKTU : $now :■□"
 
 figlet ' selesai '
-echo "V:0.01-09/12/2023-"
+echo "V:0.10-15/12/2023-"
