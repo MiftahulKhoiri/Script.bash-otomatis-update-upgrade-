@@ -9,7 +9,7 @@ install paket git
 ~$ apt install git
 
 download file git
-~$ git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
+~$ git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git 
 
 masuk ke folder unduhan
 ~$ cd /data/data/com.termux/files/home/Script.bash-otomatis-update-upgrade-/
