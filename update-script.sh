@@ -9,6 +9,7 @@ sleep 3
 
 clear
 echo "menghapus berkas lama"
+sleep 3
 rm update.sh
 rm update-script.sh
 sleep 3
@@ -25,6 +26,7 @@ cd /data/data/com.termux/files/home
 
 clear 
 echo "menghapus file sampah"
+sleep 3
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 3
 
@@ -32,8 +34,10 @@ clear
 echo " pembaruan script selesai "
 now=$(date +"%F/%T")
 echo "■¤¤ :TANGGAL/WAKTU: $now : ¤¤■"
+sleep 3
 figlet terimaksih 
 
-echo "V:0.10-09/12/2023-"
+echo " V:0.10 #09/12/2023# "
+echo " V:0.15 #31/01/2024# "
 
 
