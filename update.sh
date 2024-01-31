@@ -26,4 +26,5 @@ now=$(date +"%F/%T")
 echo "□■: TANGGAL/WAKTU : $now :■□"
 
 figlet ' selesai '
-echo "V:0.10-15/12/2023-"
+echo " V:0.10 #15/12/2023# "
+echo " V:0.15 #31/01/2024# "
