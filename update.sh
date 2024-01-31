@@ -2,18 +2,20 @@
 
 clear 
 echo  "### Memeriksa pembaruan paket ###"
+sleep 3
 apt update 
-sleep 5
 apt list --upgradable
 sleep 5
 
 clear 
 echo  "## meningkatkan pembaruan paket ##"
+sleep3
 apt upgrade  -y
 sleep 7
 
 clear 
 echo "# menghapus file sampah #"
+sleep 3
 apt autoremove -y
 sleep 5
 
