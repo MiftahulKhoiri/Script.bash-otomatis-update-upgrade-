@@ -30,6 +30,12 @@ sleep 3
 rm -rf Script.bash-otomatis-update-upgrade-/
 sleep 3
 
+clear
+echo "memeriksakan pembaruan paket "
+sleep 3
+./update.sh 
+sleep 3
+
 clear 
 echo " pembaruan script selesai "
 now=$(date +"%F/%T")
