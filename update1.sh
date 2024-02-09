@@ -48,6 +48,7 @@ echo "■ :TANGGAL/WAKTU : $now : ■"
 sleep 5
 
 cd /data/data/com.termux/files/home
+cd
 pwd
 ls 
 figlet terimaksih
