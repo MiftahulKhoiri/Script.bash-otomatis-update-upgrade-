@@ -1,7 +1,7 @@
 # Termux Script.bash
 
 script.bash termux
-sekali perintah biar kan kode yang menyelesaikan semua nya
+sekali perintah biar kan kode script yang menyelesaikan semua nya
 
 # penggunaan
 
