@@ -2,6 +2,7 @@
 
 script.bash termux
 sekali perintah biar kan kode script yang menyelesaikan semua nya
+~ cuma hiburan untuk memulai belajar script bas
 
 # penggunaan
 
