@@ -21,7 +21,7 @@ berikan izin pada file update.sh dengan perintah
 setelah itu jalankan dengan perintah 
 ~$ ./update1.sh
 
-Untuk mendapatkan update terbaru dari script ini tinggal jalankan script ini
+Untuk mendapatkan update terbaru dari script ini tinggal jalankan script ini \n
 ~$ ./update-script.sh
 
 $$$ buat hidup mu lebih gampang $$$
