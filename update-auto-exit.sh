@@ -26,8 +26,9 @@ now=$(date +"%F/%T")
 echo "□■: TANGGAL/WAKTU : $now :■□"
 
 figlet ' selesai '
+echo " V:0.20 #13/04/2024# "
 
-echo "aplikasi akan srgers di tutup dalam 10 detik "
+echo "aplikasi akan srgers di tutup dalam waktu detik "
 sleep 2
 echo "mulai"
 clear 
