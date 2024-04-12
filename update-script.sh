@@ -12,6 +12,7 @@ echo "menghapus berkas lama"
 sleep 3
 rm update.sh
 rm update-script.sh
+rm update-auto-exit.sh
 sleep 3
 
 clear 
