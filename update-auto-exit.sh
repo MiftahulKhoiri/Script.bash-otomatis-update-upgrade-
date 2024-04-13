@@ -9,7 +9,7 @@ sleep 5
 
 clear 
 echo  "## meningkatkan pembaruan paket ##"
-sleep3
+slep3
 apt upgrade  -y
 sleep 7
 
