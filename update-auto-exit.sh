@@ -64,11 +64,12 @@ echo "1 #"
 sleep 1
 clear 
 echo "----------------------------"
+sleep 2
 figlet 'selamat tinggal boz '
+clear 
 
 sleep 2
-exit
-
+exit 
 
 
 
