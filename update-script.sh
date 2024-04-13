@@ -3,6 +3,7 @@
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
 sleep 3
+BLA_vertical_block=( 0.25 ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂ ▁ )
 
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 3
