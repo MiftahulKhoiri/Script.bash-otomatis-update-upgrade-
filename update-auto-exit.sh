@@ -27,42 +27,47 @@ echo "□■: TANGGAL/WAKTU : $now :■□"
 
 figlet ' selesai '
 echo " V:0.20 #13/04/2024# "
+echo " V:0.25 #14/04/2024# "
 
 echo "aplikasi akan srgers di tutup dalam waktu detik "
 sleep 2
 echo "mulai"
 clear 
-echo "10"
+echo "10 ##########"
 sleep 1
 clear 
-echo "9"
+echo "9 #########"
 sleep 1
 clear 
-echo "8"
+echo "8 ########"
 sleep 1
 clear 
-echo "7"
+echo "7 #######"
 sleep 1
 clear
-echo "6"
+echo "6 ######"
 sleep 1
 clear 
-echo "5"
+echo "5 #####"
 sleep 1
 clear
-echo "4"
+echo "4 ####"
 sleep 1
 clear 
-echo "3"
+echo "3 ###"
 sleep 1
 clear 
-echo "2"
+echo "2 ##"
 sleep 1
 clear 
-echo "1"
+echo "1 #"
 sleep 1
 clear 
+echo "----------------------------"
 figlet 'selamat tinggal boz '
+
+sleep 2
+exit
 
 
 
