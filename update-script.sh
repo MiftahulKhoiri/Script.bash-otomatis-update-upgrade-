@@ -2,7 +2,7 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-sleep 3?
+sleep 3
 
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 1
