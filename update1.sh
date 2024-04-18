@@ -65,8 +65,11 @@ pkg install apt
 apt install figlet -y
 chmod  +x update.sh 
 chmod +x update-script.sh
+chmod +x update-auto-exit.sh 
+
 cp update.sh /data/data/com.termux/files/home
 cp update-script.sh /data/data/com.termux/files/home
+cp update-auto-exit.sh /data/data/com.termux/files/home
 sleep 7
 
 clear 
@@ -90,5 +93,6 @@ cd
 pwd
 ls 
 figlet terimaksih
-echo "V:0.01-09/12/2023-"
+echo " V:0.01 #09/12/2023# "
 echo " V:0.15 #31/01/2024# "
+echo " V:0.20 #18/01/2024# "
