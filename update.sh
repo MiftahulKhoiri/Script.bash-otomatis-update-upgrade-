@@ -2,6 +2,7 @@
 
 clear 
 echo  "### Memeriksa pembaruan paket ###"
+sleep 3
 clear
 sleep 2
 echo "mulai"
@@ -42,7 +43,7 @@ apt update
 sleep 3
 
 apt list --upgradable
-sleep 5
+sleep 3
 
 clear 
 echo  "## meningkatkan pembaruan paket ##"
@@ -58,10 +59,13 @@ sleep 5
 
 clear 
 echo "****** semua paket telah di tingkat kan ******"
-
+sleep 5
+clear 
 now=$(date +"%F/%T")
 echo "□■: TANGGAL/WAKTU : $now :■□"
-
+sleep 3
+clear 
 figlet ' selesai '
 echo " V:0.10 #15/12/2023# "
 echo " V:0.15 #31/01/2024# "
+echo " V:0 20 #18/04/2024# "
