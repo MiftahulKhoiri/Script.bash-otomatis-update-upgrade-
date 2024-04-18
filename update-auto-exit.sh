@@ -29,8 +29,8 @@ figlet ' selesai '
 echo " V:0.20 #13/04/2024# "
 echo " V:0.25 #14/04/2024# "
 
-echo "aplikasi akan srgers di tutup dalam waktu detik "
-sleep 2
+echo "aplikasi akan srgers di tutup dalam waktu 10 detik "
+sleep 4
 echo "mulai"
 clear 
 echo "10 ##########"
