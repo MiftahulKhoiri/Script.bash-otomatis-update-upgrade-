@@ -22,7 +22,7 @@ sleep 3
 
 clear 
 echo "memperoses file unduhan"
-sleep 3
+sleep 1
 cd Script.bash-otomatis-update-upgrade-/
 chmod +x update.sh 
 chmod +x update-script.sh
