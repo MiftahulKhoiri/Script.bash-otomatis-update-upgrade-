@@ -7,12 +7,21 @@ sleep 3
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 1
 echo "1"
-sleep 2
+clear 
+sleep 1
 echo "2"
-sleep 3
+clear 
+sleep 1
 echo "3"
-
 clear
+echo "4"
+sleep 1
+clear
+echo "5"
+sleep 1
+clear
+echo "6"
+clear 
 echo "menghapus berkas lama"
 sleep 3
 rm -rf update.sh
@@ -37,46 +46,6 @@ clear
 echo "menghapus file sampah"
 sleep 3
 rm -rf Script.bash-otomatis-update-upgrade-/
-sleep 3
-
-clear
-echo "memeriksakan pembaruan paket "
-sleep 2
-echo "mulai"
-clear 
-echo "10 ##########"
-sleep 1
-clear 
-echo "9 #########"
-sleep 1
-clear 
-echo "8 ########"
-sleep 1
-clear 
-echo "7 #######"
-sleep 1
-clear
-echo "6 ######"
-sleep 1
-clear 
-echo "5 #####"
-sleep 1
-clear
-echo "4 ####"
-sleep 1
-clear 
-echo "3 ###"
-sleep 1
-clear 
-echo "2 ##"
-sleep 1
-clear 
-echo "1 #"
-sleep 1
-clear 
-echo "----------------------------"
-sleep 1
-./update.sh 
 sleep 3
 
 clear 
