@@ -69,7 +69,7 @@ figlet 'selamat tinggal boz '
 clear 
 
 sleep 2
-lgout
+exit
 
 
 
