@@ -2,8 +2,45 @@
 
 clear 
 echo  "### Memeriksa pembaruan paket ###"
+clear
+sleep 2
+echo "mulai"
+clear 
+echo "10 ##########"
+sleep 1
+clear 
+echo "9 #########"
+sleep 1
+clear 
+echo "8 ########"
+sleep 1
+clear 
+echo "7 #######"
+sleep 1
+clear
+echo "6 ######"
+sleep 1
+clear 
+echo "5 #####"
+sleep 1
+clear
+echo "4 ####"
+sleep 1
+clear 
+echo "3 ###"
+sleep 1
+clear 
+echo "2 ##"
+sleep 1
+clear 
+echo "1 #"
+sleep 1
+clear 
+echo "----------------------------"
+sleep 1
+apt update
 sleep 3
-apt update 
+
 apt list --upgradable
 sleep 5
 
