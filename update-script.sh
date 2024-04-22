@@ -2,8 +2,37 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-sleep 3
-
+echo "10 ##########"
+sleep 1
+clear 
+echo "9 #########"
+sleep 1
+clear 
+echo "8 ########"
+sleep 1
+clear 
+echo "7 #######"
+sleep 1
+clear
+echo "6 ######"
+sleep 1
+clear 
+echo "5 #####"
+sleep 1
+clear
+echo "4 ####"
+sleep 1
+clear 
+echo "3 ###"
+sleep 1
+clear 
+echo "2 ##"
+sleep 1
+clear 
+echo "1 #"
+sleep 1
+clear 
+echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 1
 echo "1"
