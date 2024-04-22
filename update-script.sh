@@ -34,20 +34,20 @@ sleep 1
 clear 
 echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
-sleep 1
+sleep 2
 echo "1"
 clear 
-sleep 1
+sleep 2
 echo "2"
 clear 
-sleep 1
+sleep 2
 echo "3"
 clear
 echo "4"
-sleep 1
+sleep 2
 clear
 echo "5"
-sleep 1
+sleep 2
 clear
 echo "6"
 clear 
