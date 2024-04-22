@@ -4,52 +4,68 @@ clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
 echo "10 ##########"
 sleep 1
+echo 
 clear 
 echo "9 #########"
 sleep 1
+echo 
 clear 
 echo "8 ########"
 sleep 1
+echo 
 clear 
 echo "7 #######"
 sleep 1
+echo 
 clear
 echo "6 ######"
 sleep 1
+echo 
 clear 
 echo "5 #####"
 sleep 1
+echo 
 clear
 echo "4 ####"
 sleep 1
+echo 
 clear 
 echo "3 ###"
 sleep 1
+echo 
 clear 
 echo "2 ##"
 sleep 1
+echo 
 clear 
 echo "1 #"
 sleep 1
+echo 
 clear 
 echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 2
 echo "1"
+echo 
 clear 
 sleep 2
 echo "2"
+echo 
 clear 
 sleep 2
 echo "3"
+echo 
 clear
 echo "4"
+echo 
 sleep 2
 clear
 echo "5"
+echo 
 sleep 2
 clear
 echo "6"
+echo 
 clear 
 echo "menghapus berkas lama"
 sleep 3
