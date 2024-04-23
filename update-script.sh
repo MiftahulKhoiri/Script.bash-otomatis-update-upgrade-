@@ -2,46 +2,16 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-echo "10 ##########"
-sleep 1
-echo 
-clear 
-echo "9 #########"
-sleep 1
-echo 
-clear 
-echo "8 ########"
-sleep 1
-echo 
-clear 
-echo "7 #######"
-sleep 1
-echo 
-clear
-echo "6 ######"
-sleep 1
-echo 
-clear 
-echo "5 #####"
-sleep 1
-echo 
-clear
-echo "4 ####"
-sleep 1
-echo 
-clear 
-echo "3 ###"
-sleep 1
-echo 
-clear 
-echo "2 ##"
-sleep 1
-echo 
-clear 
-echo "1 #"
-sleep 1
-echo 
-clear 
+LOADING="[..........]" 
+icon="="
+  for i in $(seq 10 100); do
+      LOADING=${LOADING/./$icon} 
+      sleep 0.20
+      clear
+      echo $LOADING $i"%"
+  done
+
+sleep 2 
 echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 2
