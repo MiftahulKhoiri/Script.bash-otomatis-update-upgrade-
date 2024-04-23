@@ -15,27 +15,15 @@ sleep 2
 echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 2
-echo "1"
-echo 
-clear 
-sleep 2
-echo "2"
-echo 
-clear 
-sleep 2
-echo "3"
-echo 
-clear
-echo "4"
-echo 
-sleep 2
-clear
-echo "5"
-echo 
-sleep 2
-clear
-echo "6"
-echo 
+LOADING="[                                                                                                    ]" 
+icon="="
+  for i in $(seq 1 100); do
+      LOADING=${LOADING/./$icon} 
+      sleep 0.20
+      clear
+      echo $LOADING $i"%"
+  done
+
 clear 
 echo "menghapus berkas lama"
 sleep 3
