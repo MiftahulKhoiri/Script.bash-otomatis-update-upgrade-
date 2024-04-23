@@ -2,9 +2,9 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-LOADING="[..........]" 
+LOADING="[                                                                                                    ]" 
 icon="="
-  for i in $(seq 10 100); do
+  for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
       sleep 0.20
       clear
