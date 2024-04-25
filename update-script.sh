@@ -2,11 +2,11 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-LOADING="[............................................................................................................]" 
+LOADING="[...............................................................................................]" 
 icon=".▪︎•●○¤."
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
-      sleep 0.20
+      sleep 0.5
       clear
       echo $LOADING $i"%"
   done
@@ -15,11 +15,11 @@ sleep 2
 echo "mulai"
 git clone https://github.com/MiftahulKhoiri/Script.bash-otomatis-update-upgrade-.git
 sleep 2
-LOADING="[                                                                                                    ]" 
+LOADING="[]" 
 icon="="
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
-      sleep 0.20
+      sleep 0.5
       clear
       echo $LOADING $i"%"
   done
