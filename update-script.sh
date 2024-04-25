@@ -2,8 +2,8 @@
 
 clear
 echo " ¤¤¤ memeriksa pembaruan script ¤¤¤ "
-LOADING="[                                                                                                    ]" 
-icon="="
+LOADING="[............................................................................................................]" 
+icon=".▪︎•●○¤."
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
       sleep 0.20
@@ -59,8 +59,6 @@ sleep 3
 figlet terimaksih 
 
 echo " V:0.10 #09/12/2023# "
-echo " V:0.15 #31/01/2024# "
-echo " V:0.20 #13/04/2024# "
 echo " v:0.25 #17/04/2024# "
 
 
