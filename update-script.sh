@@ -6,7 +6,7 @@ LOADING="[......................................................................
 icon=".▪︎•●○¤."
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
-      sleep 0.5
+      sleep 0.2
       clear
       echo $LOADING $i"%"
   done
@@ -19,7 +19,7 @@ LOADING="[]"
 icon="="
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
-      sleep 0.5
+      sleep 0.2
       clear
       echo $LOADING $i"%"
   done
